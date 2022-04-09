@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');  
+@import url('http://fonts.cdnfonts.com/css/museo-sans-rounded');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+}
+
+#app{
+  height: 100%;
+}
+
+p, .title {
+  font-family: 'Museo Sans Rounded', sans-serif;                                       
+}
+
+.title {
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+  
+.cardFire{
+  width: 178px;
+  height: 104px;
+  background: transparent linear-gradient(60deg, #FB6C6C 0%, #EC5757 62%, #FF2727 100%, #9E0000 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;  }
+
+.cardWater{
+  width: 178px;
+  height: 104px;
+  background: transparent linear-gradient(60deg, #6EBAFF 0%, #52A6F3 52%, #006ED1 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;  }
+
+.cardPlant{
+  width: 178px;
+  height: 104px;
+  background: transparent linear-gradient(59deg, #48D0B0 0%, #33CBA7 78%, #00BE91 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;  }
+
+.cardNormal{
+  width: 178px;
+  height: 104px;
+  background: transparent linear-gradient(59deg, #FED66D 0%, #FFD86F 9%, #DFA300 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;  
+  
+}
+  
+.cardBug {
+  width: 178px;
+  height: 104px;
+  background: transparent linear-gradient(59deg, #bdf77f 0%, #aedf78 9%, #74da07 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;  
+  
+}
+
+.cardBody{
+  background-image: url("./assets/pokeball_icon_white.svg");
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.plant{
+  background: transparent linear-gradient(59deg, #48D0B0 0%, #33CBA7 78%, #00BE91 100%) 0% 0% no-repeat padding-box;
+}
+
+.water{
+  background: transparent linear-gradient(60deg, #6EBAFF 0%, #52A6F3 52%, #006ED1 100%) 0% 0% no-repeat padding-box;
+}
+
+.fire{
+  background: transparent linear-gradient(60deg, #FB6C6C 0%, #EC5757 62%, #FF2727 100%, #9E0000 100%) 0% 0% no-repeat padding-box;
+}
+
+.bug{
+  background: transparent linear-gradient(59deg, #bdf77f 0%, #aedf78 9%, #74da07 100%) 0% 0% no-repeat padding-box;
+}
+
+.normal{
+  background: transparent linear-gradient(59deg, #FED66D 0%, #FFD86F 9%, #DFA300 100%) 0% 0% no-repeat padding-box;
+}
+
+
+.skillBox{
+  width: 70px;
+  height: 15px;
+  /* UI Properties */
+  background: #FFFFFF5E 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  opacity: 1;
+}
+
+.skillText{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font: normal normal normal 12px/15px Lato;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.latoFonts{
+  font-family: 'Lato', sans-serif;
+}
+
+.museoFonts {
+  font-family: 'Museo Sans Rounded', sans-serif;
+  font: normal normal normal 16px/19px Museo Sans Rounded 700;
+  letter-spacing: 0px;
+  color: #333C4687;
+}
+
