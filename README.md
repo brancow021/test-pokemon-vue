@@ -12,9 +12,9 @@ For the UI/UX I used Tailwindcss, this library allows us to make a simpler respo
 
 ## Resumen de Tecnologia
 
-Para el desarrollo de esta aplicacion se hizo uso de el framework (Vuejs), este nos permite desarrollar una aplicacion completamente reactiva, ademas se uso la libreria de vuex, esta nos permite manejar los estados globales de la aplicacion de forma mas facil.
+Para el desarrollo de esta aplicacion use el framework (Vuejs), este nos permite desarrollar una aplicacion completamente reactiva, ademas se uso la libreria de vuex, esta nos permite manejar los estados globales de la aplicacion de forma mas facil.
 
-Para la UI/UX hice uso de Tailwindcss, esta libreria nos permite hacer una maquetacion responsive mas sencillo.
+Para la UI/UX hice use Tailwindcss, esta libreria nos permite hacer una maquetacion responsive mas sencillo.
 
 ## Recommended IDE Setup
 
